@@ -46,3 +46,5 @@ logging:
     org.apache.coyote.http11.Http11InputBuffer: DEBUG # Incoming HTTP requests
     com.laioffer.twitch.external.TwitchApiClient: DEBUG
 
+server:
+  port: 8080
