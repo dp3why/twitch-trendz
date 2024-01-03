@@ -13,8 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class UserService {
-
-
     private final UserDetailsManager userDetailsManager;
     private final PasswordEncoder passwordEncoder;
     private final UserRepository userRepository;
